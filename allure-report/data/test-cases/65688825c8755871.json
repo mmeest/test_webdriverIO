@@ -1,0 +1,137 @@
+{
+  "uid" : "65688825c8755871",
+  "name" : "should share wishBasket",
+  "fullName" : "Login to webpage.should share wishBasket",
+  "historyId" : "35cdc9d55113c43a4f51ea41a792e214",
+  "time" : {
+    "start" : 1604931001125,
+    "stop" : 1604931010975,
+    "duration" : 9850
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1604931001320,
+        "stop" : 1604931001491,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "373d773dd4fdf9c8",
+        "name" : "Request",
+        "source" : "373d773dd4fdf9c8.json",
+        "type" : "application/json",
+        "size" : 85
+      }, {
+        "uid" : "f81cd65dcd771e95",
+        "name" : "Response",
+        "source" : "f81cd65dcd771e95.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "elementClick",
+      "time" : {
+        "start" : 1604931001537,
+        "stop" : 1604931005754,
+        "duration" : 4217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c29fa23f0af42b",
+        "name" : "Request",
+        "source" : "4c29fa23f0af42b.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "getTitle",
+      "time" : {
+        "start" : 1604931010941,
+        "stop" : 1604931010974,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eaa18fb94ae1514f",
+        "name" : "Response",
+        "source" : "eaa18fb94ae1514f.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Login to webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Login to webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should share wishBasket"
+  }, {
+    "name" : "package",
+    "value" : "Login to webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65688825c8755871.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

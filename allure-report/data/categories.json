@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect window to have title\n                \n                Expected: \"Minu konto\"\n                Received: \"Loo endale konto\"",
+      "children" : [ {
+        "name" : "should enter creditentials and register new user",
+        "uid" : "87cfc64de9b8065f",
+        "parentUid" : "8538f17ab7fbef8a91f720f01af49b43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604930986632,
+          "stop" : 1604931006342,
+          "duration" : 19710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome-86.0.4240.183" ]
+      } ],
+      "uid" : "8538f17ab7fbef8a91f720f01af49b43"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Can't call selectByVisibleText on element with selector \"//*[@id=\"Y4Y5Y7Q\"]\" because element wasn't found",
+      "children" : [ {
+        "name" : "should finalize checkout",
+        "uid" : "91f6a81e72e8f6f4",
+        "parentUid" : "d8ff3aefd40c926ea051cc7501fe459c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604931016024,
+          "stop" : 1604931029179,
+          "duration" : 13155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome-86.0.4240.183" ]
+      } ],
+      "uid" : "d8ff3aefd40c926ea051cc7501fe459c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

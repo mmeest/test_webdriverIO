@@ -1,0 +1,126 @@
+{
+  "uid" : "107c75873aed090e",
+  "name" : "should open the main url and verify the title",
+  "fullName" : "Login to webpage.should open the main url and verify the title",
+  "historyId" : "878703fbda910e4a22a34d249bb1a82b",
+  "time" : {
+    "start" : 1604930972356,
+    "stop" : 1604930980369,
+    "duration" : 8013
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "navigateTo",
+      "time" : {
+        "start" : 1604930972371,
+        "stop" : 1604930980085,
+        "duration" : 7714
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5a5b3b8bf9082e5",
+        "name" : "Request",
+        "source" : "b5a5b3b8bf9082e5.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "getTitle",
+      "time" : {
+        "start" : 1604930980292,
+        "stop" : 1604930980364,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2db7f86ef0be7e5",
+        "name" : "Response",
+        "source" : "c2db7f86ef0be7e5.json",
+        "type" : "application/json",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login to webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Login to webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open the main url and verify the title"
+  }, {
+    "name" : "package",
+    "value" : "Login to webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3e21ec6465ebeba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604930971877,
+        "stop" : 1604930979916,
+        "duration" : 8039
+      }
+    }, {
+      "uid" : "2d96b72f9978de12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604930971248,
+        "stop" : 1604930980859,
+        "duration" : 9611
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "107c75873aed090e.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

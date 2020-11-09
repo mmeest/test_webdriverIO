@@ -1,0 +1,152 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604930971248' stop='1604931007307'>
+    <name>Login to webpage</name>
+    <title>Login to webpage</title>
+    <test-cases>
+        <test-case start='1604930971248' status='passed' stop='1604930980859'>
+            <name>should open the main url and verify the title</name>
+            <title>should open the main url and verify the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-86.0.4240.183'/>
+            </parameters>
+            <steps>
+                <step start='1604930971627' status='passed' stop='1604930980573'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='8b7122d8-4040-4a98-b956-e80882282c43-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604930980777' status='passed' stop='1604930980854'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments>
+                        <attachment title='Response' source='6b087474-dede-453a-a2d2-0c47313985ca-attachment.json' type='application/json' size='9'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1604930980861' status='passed' stop='1604930990218'>
+            <name>should navigate to login page</name>
+            <title>should navigate to login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-86.0.4240.183'/>
+            </parameters>
+            <steps>
+                <step start='1604930981024' status='passed' stop='1604930981662'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='9df22b35-ac3b-4c00-b3db-e2043ebad4a4-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='8fb9fc1a-d45a-473c-9520-e6d498851ad9-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604930982178' status='passed' stop='1604930983446'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='0b34ca5c-dd8e-4d69-9ff7-01b037407d6a-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604930989619' status='passed' stop='1604930990217'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments>
+                        <attachment title='Response' source='7a5f0d09-dcff-4234-b4e7-2c70dd03137b-attachment.json' type='application/json' size='13'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1604930990219' status='passed' stop='1604931007306'>
+            <name>should log in as registered user</name>
+            <title>should log in as registered user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-86.0.4240.183'/>
+            </parameters>
+            <steps>
+                <step start='1604930991307' status='passed' stop='1604930993354'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='39ce7f76-a287-4c72-9530-1dfaa274b1fc-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='b9661fbb-aa0c-4e20-af57-5192960fc800-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604930993792' status='passed' stop='1604930993805'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='ef57afe3-63a4-4f32-bda6-ef21dda93e09-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='3bf7f6dd-02dd-4900-9424-83cb6db2e5e8-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604930993851' status='passed' stop='1604930993866'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='aeed41be-2fbd-419b-987d-5e11e42af49d-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='3e9942cc-5309-41fc-b20f-80e6f93127af-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604930993924' status='passed' stop='1604931002211'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='7f161b76-fdfa-4af2-9457-1ea033ce12f1-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604931002248' status='passed' stop='1604931002751'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='d7bda9b6-f510-413f-a777-c6c29ad763c7-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604931002773' status='passed' stop='1604931002951'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='7004093f-f847-4d5e-85b4-1ddc602fed14-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604931007262' status='passed' stop='1604931007305'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments>
+                        <attachment title='Response' source='7e82e9c1-c9ca-442d-af3b-9a8e6ab3d0eb-attachment.json' type='application/json' size='9'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

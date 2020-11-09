@@ -1,0 +1,108 @@
+{
+  "uid" : "b27388f3117d697a",
+  "name" : "should open the main url and verify the title",
+  "fullName" : "Register to webstore.should open the main url and verify the title",
+  "historyId" : "f3e2e829975ff737fec049b97ab0b31",
+  "time" : {
+    "start" : 1604930972101,
+    "stop" : 1604930984438,
+    "duration" : 12337
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "navigateTo",
+      "time" : {
+        "start" : 1604930972141,
+        "stop" : 1604930983810,
+        "duration" : 11669
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e9569e4d03e7f86",
+        "name" : "Request",
+        "source" : "1e9569e4d03e7f86.json",
+        "type" : "application/json",
+        "size" : 144
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "getTitle",
+      "time" : {
+        "start" : 1604930984145,
+        "stop" : 1604930984425,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "94162a0c9360fd19",
+        "name" : "Response",
+        "source" : "94162a0c9360fd19.json",
+        "type" : "application/json",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Register to webstore"
+  }, {
+    "name" : "testClass",
+    "value" : "Register to webstore"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open the main url and verify the title"
+  }, {
+    "name" : "package",
+    "value" : "Register to webstore"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b27388f3117d697a.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}
